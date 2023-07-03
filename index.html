@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Codes -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Daniels is a responsive personal portfolio website for a web designer and developer "
+    />
+    <meta
+      name="keywords"
+      content="web design, web development, portfolio, brand, design, "
+    />
+    <!-- Website Title -->
+    <title>Daniels Portfolio Website</title>
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800;900&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awsome link -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Bootstrap minified css file link -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- main css file link -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
+    <!-- start of header & navbar -->
+    <header>
+      <nav id="navbar" class="navbar navbar-expand-md bg-white fixed-top">
+        <div class="container-sm justify-content-between">
+          <a
+            class="navbar-brand text-uppercase text-dark fs-5 fw-bold montserrat"
+            href="index.html"
+            >Daniels</a
+          >
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="text-dark">
+              <i class="fa-solid fa-bars"></i>
+            </span>
+          </button>
+          <div
+            class="collapse navbar-collapse text-center bg-white vw-100 py-3 position-absolute start-0 top-100 border border-top border-light-subtle"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav ms-auto nav-pills column-gap-4 row-gap-2">
+              <li class="nav-item">
+                <a
+                  class="nav-link poppins text-dark text-capitalize px-0 position-relative"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize text-dark poppins px-0 position-relative"
+                  href="#about"
+                  >about</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize text-dark poppins px-0 position-relative"
+                  href="#services"
+                  >services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize text-dark poppins px-0 position-relative"
+                  href="#works"
+                  >works</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize text-dark poppins px-0 position-relative"
+                  href="#clients"
+                  >clients</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize text-dark poppins px-0 position-relative"
+                  href="#team"
+                  >team</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize text-dark poppins px-0 position-relative"
+                  href="#contact"
+                  >contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end of header & navbar -->
+
+    <!-- start of main -->
+    <main>
+      <!-- start of home section -->
+      <section id="home" class="vh-100">
+        <div class="bg-overlay h-100">
+          <div
+            class="container-sm flex-column d-flex h-100 w-100 justify-content-center align-items-center"
+          >
+            <div class="hero-info">
+              <div class="home-content montserrat text-white text-center">
+                <div class="hero-subtitle text-capitalize fw-bolder mb-3">
+                  hello
+                </div>
+                <h1
+                  class="text-capitalize hero-title fw-lighter overflow-hidden mb-5"
+                >
+                  i am
+                </h1>
+              </div>
+            </div>
+            <div
+              class="social-icons text-white d-flex align-items-start column-gap-2"
+            >
+              <div
+                class="social rounded-circle d-flex justify-content-center text-center align-items-center"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div
+                class="social rounded-circle d-flex justify-content-center text-center align-items-center"
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div
+                class="social rounded-circle d-flex justify-content-center text-center align-items-center"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div
+                class="social rounded-circle d-flex justify-content-center text-center align-items-center"
+              >
+                <i class="fa-brands fa-behance"></i>
+              </div>
+              <div
+                class="social rounded-circle d-flex justify-content-center text-center align-items-center"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of home section -->
+
+      <!-- start of about section -->
+      <section id="about" class="sec-padding overflow-hidden">
+        <div class="container-sm">
+          <div class="row g-5">
+            <div class="col-lg-5 col-xl-4">
+              <div class="about-img position-relative ps-4">
+                <img
+                  src="./images/hero.jpg"
+                  class="w-100"
+                  alt="jerry daniels photo"
+                />
+              </div>
+            </div>
+            <div class="col-lg-7 col-xl-8">
+              <div class="about-content">
+                <h2 class="montserrat mb-1 text-capitalize">About Me.</h2>
+                <p
+                  class="about-subtitle letter-space poppins text-body-tertiary lead fs-6"
+                >
+                  UI / UX DESIGNER & WEB DEVELOPER
+                </p>
+                <p class="about-desc poppins text-grey mb-4 lh-md">
+                  I am <span class="fw-bold">Jerry Daniels</span> Lorem Ipsum is
+                  simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever
+                  It has survived not only five centuries, but also the leap
+                  into electronic but also the leap into electronic typesetting,
+                  remaining essentially unchanged. It was popularised in the
+                  1960s with the release of Letraset sheets containing
+                </p>
+                <div class="progress rounded-2 my-4 fs-6">
+                  <div
+                    class="progress-bar bg-dark rounded-2"
+                    role="progressbar"
+                    style="width: 95%"
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="d-flex justify-content-between align-items-center px-3"
+                    >
+                      <span class="text-capitalize">Web Design</span>
+                      <span>95%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="progress rounded-2 my-4 fs-6">
+                  <div
+                    class="progress-bar bg-dark rounded-2"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="d-flex justify-content-between align-items-center px-3"
+                    >
+                      <span class="text-capitalize">branding</span>
+                      <span>80%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="progress rounded-2 my-4 fs-6">
+                  <div
+                    class="progress-bar bg-dark rounded-2"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="d-flex justify-content-between align-items-center px-3"
+                    >
+                      <span class="text-capitalize">development</span>
+                      <span>90%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="about-btn my-5 d-flex gap-2 flex-wrap">
+                <a
+                  href="#"
+                  class="poppins colored-transition text-decoration-none poppins bg-dark rounded-2 text-light border border-1 border-dark"
+                  >Download C.V</a
+                >
+                <a
+                  href="#"
+                  class="poppins colored-transition text-decoration-none poppins bg-white border border-1 border-dark rounded-2 text-dark text-capitalize"
+                  >contact me</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of about section -->
+
+      <!-- start of services section -->
+      <section id="services" class="sec-padding text-center sec-bg">
+        <div class="container-sm">
+          <div class="services-content">
+            <h2
+              class="montserrat text-capitalize sec-title text-dark position-relative d-inline-block"
+            >
+              services.
+            </h2>
+            <div class="row g-4">
+              <div class="col-lg-4">
+                <div class="card border-0 card-padding">
+                  <div
+                    class="card-icon d-flex justify-content-center align-items-center mb-2"
+                  >
+                    <i
+                      class="fa-solid colored-transition fa-laptop sec-bg rounded-circle p-4"
+                    ></i>
+                  </div>
+                  <div class="card-body">
+                    <h3
+                      class="card-title text-capitalize montserrat text-dark mb-3 fs-5"
+                    >
+                      Web Design
+                    </h3>
+                    <p class="card-text text-muted poppins lh-md">
+                      Lorem Ipsum is simply dummy text of the Lorem Ipsum has
+                      been the industry's standard dummy text ever
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0 card-padding">
+                  <div
+                    class="card-icon d-flex justify-content-center align-items-center mb-2"
+                  >
+                    <i
+                      class="fa-solid colored-transition fa-bullhorn sec-bg rounded-circle p-4"
+                    ></i>
+                  </div>
+                  <div class="card-body">
+                    <h3
+                      class="card-title text-capitalize montserrat text-dark mb-3 fs-5"
+                    >
+                      Branding
+                    </h3>
+                    <p class="card-text text-muted poppins lh-md">
+                      Lorem Ipsum is simply dummy text of the Lorem Ipsum has
+                      been the industry's standard dummy text ever
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0 card-padding">
+                  <div
+                    class="card-icon d-flex justify-content-center align-items-center mb-2"
+                  >
+                    <i
+                      class="fa-solid colored-transition fa-umbrella sec-bg rounded-circle p-4"
+                    ></i>
+                  </div>
+                  <div class="card-body">
+                    <h3
+                      class="card-title text-capitalize montserrat text-dark mb-3 fs-5"
+                    >
+                      Development
+                    </h3>
+                    <p class="card-text text-muted poppins lh-md">
+                      Lorem Ipsum is simply dummy text of the Lorem Ipsum has
+                      been the industry's standard dummy text ever
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0 card-padding">
+                  <div
+                    class="card-icon d-flex justify-content-center align-items-center mb-2"
+                  >
+                    <i
+                      class="fa-solid colored-transition fa-gem sec-bg rounded-circle p-4"
+                    ></i>
+                  </div>
+                  <div class="card-body">
+                    <h3
+                      class="card-title text-capitalize montserrat text-dark mb-3 fs-5"
+                    >
+                      Creative Design
+                    </h3>
+                    <p class="card-text text-muted poppins lh-md">
+                      Lorem Ipsum is simply dummy text of the Lorem Ipsum has
+                      been the industry's standard dummy text ever
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0 card-padding">
+                  <div
+                    class="card-icon d-flex justify-content-center align-items-center mb-2"
+                  >
+                    <i
+                      class="fa-solid colored-transition fa-display sec-bg rounded-circle p-4"
+                    ></i>
+                  </div>
+                  <div class="card-body">
+                    <h3
+                      class="card-title montserrat text-capitalize text-dark mb-3 fs-5"
+                    >
+                      Fully Responsive
+                    </h3>
+                    <p class="card-text text-muted poppins lh-md">
+                      Lorem Ipsum is simply dummy text of the Lorem Ipsum has
+                      been the industry's standard dummy text ever
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0 card-padding">
+                  <div
+                    class="card-icon d-flex justify-content-center align-items-center mb-2"
+                  >
+                    <i
+                      class="fa-solid colored-transition fa-camera sec-bg rounded-circle p-4"
+                    ></i>
+                  </div>
+                  <div class="card-body">
+                    <h3
+                      class="card-title text-capitalize montserrat text-dark mb-3 fs-5"
+                    >
+                      Retina Ready
+                    </h3>
+                    <p class="card-text text-muted poppins lh-md">
+                      Lorem Ipsum is simply dummy text of the Lorem Ipsum has
+                      been the industry's standard dummy text ever
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of services section -->
+
+      <!-- start of portfolio section -->
+      <section id="works" class="sec-padding text-center">
+        <div class="container-sm">
+          <div class="portfolio-content">
+            <h2
+              class="montserrat text-capitalize sec-title text-dark position-relative d-inline-block"
+            >
+              portfolio.
+            </h2>
+            <ul
+              class="nav nav-pills mb-3 justify-content-center mb-5"
+              id="portfolio-tab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link position-relative active text-dark px-1 mx-2 fw-bold text-capitalize poppins"
+                  id="pills-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-home"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                >
+                  All
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link position-relative text-dark px-1 mx-2 fw-bold text-capitalize poppins"
+                  id="pills-brand-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-brand"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-brand"
+                  aria-selected="false"
+                >
+                  brand
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link position-relative text-dark px-1 mx-2 fw-bold text-capitalize poppins"
+                  id="pills-design-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-design"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-design"
+                  aria-selected="false"
+                >
+                  design
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link position-relative text-dark px-1 mx-2 fw-bold text-capitalize poppins"
+                  id="pills-graphic-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-graphic"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-graphic"
+                  aria-selected="false"
+                >
+                  graphic
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+              >
+                <div class="row g-4">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img
+                        src="./images/12.jpg"
+                        class="w-100"
+                        alt="airpods photo"
+                      />
+                      <div
+                        class="card-layer position-absolute bg-white z-3 d-flex justify-content-center align-items-center"
+                      >
+                        <div class="layer-content">
+                          <h3
+                            class="text-uppercase fs-6 letter-space poppins text-dark fw-semibold transform-transition"
+                          >
+                            web design
+                          </h3>
+                          <div
+                            class="portfolio-icons transform-transition d-flex text-center align-items-center column-gap-2 justify-content-center mt-2"
+                          >
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="./images/2.jpg" class="w-100" alt="map photo" />
+                      <div
+                        class="card-layer position-absolute bg-white z-3 d-flex justify-content-center align-items-center"
+                      >
+                        <div class="layer-content">
+                          <h3
+                            class="text-uppercase fs-6 letter-space poppins text-dark fw-semibold transform-transition"
+                          >
+                            web design
+                          </h3>
+                          <div
+                            class="portfolio-icons transform-transition d-flex text-center align-items-center column-gap-2 justify-content-center mt-2"
+                          >
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img
+                        src="./images/3.jpg"
+                        class="w-100"
+                        alt="dots background photo"
+                      />
+                      <div
+                        class="card-layer position-absolute bg-white z-3 d-flex justify-content-center align-items-center"
+                      >
+                        <div class="layer-content">
+                          <h3
+                            class="text-uppercase fs-6 letter-space poppins text-dark fw-semibold transform-transition"
+                          >
+                            web design
+                          </h3>
+                          <div
+                            class="portfolio-icons transform-transition d-flex text-center align-items-center column-gap-2 justify-content-center mt-2"
+                          >
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img
+                        src="./images/4.jpg"
+                        class="w-100"
+                        alt="lamp settings photo"
+                      />
+                      <div
+                        class="card-layer position-absolute bg-white z-3 d-flex justify-content-center align-items-center"
+                      >
+                        <div class="layer-content">
+                          <h3
+                            class="text-uppercase fs-6 letter-space poppins text-dark fw-semibold transform-transition"
+                          >
+                            web design
+                          </h3>
+                          <div
+                            class="portfolio-icons transform-transition d-flex text-center align-items-center column-gap-2 justify-content-center mt-2"
+                          >
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img
+                        src="./images/5.jpg"
+                        class="w-100"
+                        alt="colored pencils"
+                      />
+                      <div
+                        class="card-layer position-absolute bg-white z-3 d-flex justify-content-center align-items-center"
+                      >
+                        <div class="layer-content">
+                          <h3
+                            class="text-uppercase fs-6 letter-space poppins text-dark fw-semibold transform-transition"
+                          >
+                            web design
+                          </h3>
+                          <div
+                            class="portfolio-icons transform-transition d-flex text-center align-items-center column-gap-2 justify-content-center mt-2"
+                          >
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="./images/6.jpg" class="w-100" alt="photo with
+                      white background and class="w-100" has two pens,
+                      calculator and some notebooks" />
+                      <div
+                        class="card-layer position-absolute bg-white z-3 d-flex justify-content-center align-items-center"
+                      >
+                        <div class="layer-content">
+                          <h3
+                            class="text-uppercase fs-6 letter-space poppins text-dark fw-semibold transform-transition"
+                          >
+                            web design
+                          </h3>
+                          <div
+                            class="portfolio-icons transform-transition d-flex text-center align-items-center column-gap-2 justify-content-center mt-2"
+                          >
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-brand"
+                role="tabpanel"
+                aria-labelledby="pills-brand-tab"
+              >
+                <div class="row g-4">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img
+                        src="./images/4.jpg"
+                        class="w-100"
+                        alt="lamp settings photo"
+                      />
+                      <div
+                        class="card-layer position-absolute bg-white z-3 d-flex justify-content-center align-items-center"
+                      >
+                        <div class="layer-content">
+                          <h3
+                            class="text-uppercase fs-6 letter-space poppins text-dark fw-semibold transform-transition"
+                          >
+                            web design
+                          </h3>
+                          <div
+                            class="portfolio-icons transform-transition d-flex text-center align-items-center column-gap-2 justify-content-center mt-2"
+                          >
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="./images/6.jpg" class="w-100" alt="photo with
+                      white background and class="w-100" has two pens,
+                      calculator and some notebooks" />
+                      <div
+                        class="card-layer position-absolute bg-white z-3 d-flex justify-content-center align-items-center"
+                      >
+                        <div class="layer-content">
+                          <h3
+                            class="text-uppercase fs-6 letter-space poppins text-dark fw-semibold transform-transition"
+                          >
+                            web design
+                          </h3>
+                          <div
+                            class="portfolio-icons transform-transition d-flex text-center align-items-center column-gap-2 justify-content-center mt-2"
+                          >
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-design"
+                role="tabpanel"
+                aria-labelledby="pills-design-tab"
+              >
+                <div class="row g-4">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="./images/2.jpg" class="w-100" alt="map photo" />
+                      <div
+                        class="card-layer position-absolute bg-white z-3 d-flex justify-content-center align-items-center"
+                      >
+                        <div class="layer-content">
+                          <h3
+                            class="text-uppercase fs-6 letter-space poppins text-dark fw-semibold transform-transition"
+                          >
+                            web design
+                          </h3>
+                          <div
+                            class="portfolio-icons transform-transition d-flex text-center align-items-center column-gap-2 justify-content-center mt-2"
+                          >
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img
+                        src="./images/5.jpg"
+                        class="w-100"
+                        alt="colored pencils"
+                      />
+                      <div
+                        class="card-layer position-absolute bg-white z-3 d-flex justify-content-center align-items-center"
+                      >
+                        <div class="layer-content">
+                          <h3
+                            class="text-uppercase fs-6 letter-space poppins text-dark fw-semibold transform-transition"
+                          >
+                            web design
+                          </h3>
+                          <div
+                            class="portfolio-icons transform-transition d-flex text-center align-items-center column-gap-2 justify-content-center mt-2"
+                          >
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-graphic"
+                role="tabpanel"
+                aria-labelledby="pills-graphic-tab"
+              >
+                <div class="row g-4">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img
+                        src="./images/12.jpg"
+                        class="w-100"
+                        alt="airpods photo"
+                      />
+                      <div
+                        class="card-layer position-absolute bg-white z-3 d-flex justify-content-center align-items-center"
+                      >
+                        <div class="layer-content">
+                          <h3
+                            class="text-uppercase fs-6 letter-space poppins text-dark fw-semibold transform-transition"
+                          >
+                            web design
+                          </h3>
+                          <div
+                            class="portfolio-icons transform-transition d-flex text-center align-items-center column-gap-2 justify-content-center mt-2"
+                          >
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img
+                        src="./images/3.jpg"
+                        class="w-100"
+                        alt="dots background photo"
+                      />
+                      <div
+                        class="card-layer position-absolute bg-white z-3 d-flex justify-content-center align-items-center"
+                      >
+                        <div class="layer-content">
+                          <h3
+                            class="text-uppercase fs-6 letter-space poppins text-dark fw-semibold transform-transition"
+                          >
+                            web design
+                          </h3>
+                          <div
+                            class="portfolio-icons transform-transition d-flex text-center align-items-center column-gap-2 justify-content-center mt-2"
+                          >
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img
+                        src="./images/5.jpg"
+                        class="w-100"
+                        alt="colored pencils"
+                      />
+                      <div
+                        class="card-layer position-absolute bg-white z-3 d-flex justify-content-center align-items-center"
+                      >
+                        <div class="layer-content">
+                          <h3
+                            class="text-uppercase fs-6 letter-space poppins text-dark fw-semibold transform-transition"
+                          >
+                            web design
+                          </h3>
+                          <div
+                            class="portfolio-icons transform-transition d-flex text-center align-items-center column-gap-2 justify-content-center mt-2"
+                          >
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-link"></i>
+                            </div>
+                            <div
+                              class="d-flex text-center align-items-center bg-dark text-white rounded-circle border border-1 border-dark por-icon colored-transition"
+                            >
+                              <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of portfolio section -->
+
+      <!-- start of testimonial section -->
+      <section id="clients" class="">
+        <div class="clients-layer sec-bg sec-padding text-center">
+          <div class="container-sm">
+            <div class="portfolio-content">
+              <h2
+                class="montserrat text-capitalize sec-title text-dark position-relative d-inline-block"
+              >
+                Testimonials.
+              </h2>
+              <div
+                id="testimonialsCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators column-gap-2">
+                  <button
+                    type="button"
+                    data-bs-target="#testimonialsCarousel"
+                    data-bs-slide-to="0"
+                    class="active rounded-circle"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    class="rounded-circle"
+                    data-bs-target="#testimonialsCarousel"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    class="rounded-circle"
+                    data-bs-target="#testimonialsCarousel"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div
+                  class="carousel-inner testimonial-carousel overflow-hidden"
+                >
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <img
+                      src="./images/13.jpg"
+                      alt="alex smith photo"
+                      class="rounded-circle mb-4"
+                    />
+                    <p
+                      class="client-review lh-md mb-4 text-grey poppins mx-auto"
+                    >
+                      Lorem Ipsum has been the industry's standard dummy text
+                      ever since the when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                    <h3 class="text-capitalize fs-5 text-dark montserrat">
+                      alex smith
+                    </h3>
+                    <span
+                      class="text-capitalize client-title poppins text-grey fw-semibold"
+                      >envato customer</span
+                    >
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img
+                      src="./images/13.jpg"
+                      alt="alex smith photo"
+                      class="rounded-circle mb-4"
+                    />
+                    <p
+                      class="client-review lh-md mb-4 text-grey poppins mx-auto"
+                    >
+                      Lorem Ipsum has been the industry's standard dummy text
+                      ever since the when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                    <h3 class="text-capitalize fs-5 text-dark montserrat">
+                      alex smith
+                    </h3>
+                    <span
+                      class="text-capitalize client-title poppins text-grey fw-semibold"
+                      >envato customer</span
+                    >
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img
+                      src="./images/13.jpg"
+                      alt="alex smith photo"
+                      class="rounded-circle mb-4"
+                    />
+                    <p
+                      class="client-review lh-md mb-4 text-grey poppins mx-auto"
+                    >
+                      Lorem Ipsum has been the industry's standard dummy text
+                      ever since the when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book.
+                    </p>
+                    <h3 class="text-capitalize fs-5 text-dark montserrat">
+                      alex smith
+                    </h3>
+                    <span
+                      class="text-capitalize client-title poppins text-grey fw-semibold"
+                      >envato customer</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- start of counter section -->
+        <section id="counter" class="sec-padding text-center">
+          <div class="container-sm">
+            <div class="row justify-content-center gy-5 gx-1">
+              <div class="col-lg-3">
+                <div class="counter-item">
+                  <i class="fa-solid fa-users mb-2 fs-2 text-dark"></i>
+                  <h3 class="counter-no montserrat text-dark mb-2">850</h3>
+                  <p
+                    class="counter-text text-capitalize poppins text-grey fw-semibold"
+                  >
+                    Happy Customers
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="counter-item">
+                  <i class="fa-solid fa-thumbs-up mb-2 fs-2 text-dark"></i>
+                  <h3 class="counter-no montserrat text-dark mb-2">230</h3>
+                  <p
+                    class="counter-text text-capitalize poppins text-grey fw-semibold"
+                  >
+                    completed projects
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="counter-item">
+                  <i class="fa-solid fa-bullhorn mb-2 fs-2 text-dark"></i>
+                  <h3 class="counter-no montserrat text-dark mb-2">9450</h3>
+                  <p
+                    class="counter-text text-capitalize poppins text-grey fw-semibold"
+                  >
+                    lines of codes
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="counter-item">
+                  <i
+                    class="fa-solid fa-cloud-arrow-down mb-2 fs-2 text-dark"
+                  ></i>
+                  <h3 class="counter-no montserrat text-dark mb-2">850</h3>
+                  <p
+                    class="counter-text text-capitalize poppins text-grey fw-semibold"
+                  >
+                    files downloaded
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end of counter section -->
+      </section>
+      <!-- end of testimonial section -->
+
+      <!-- start of team section -->
+      <section id="team" class="sec-padding text-center sec-bg">
+        <div class="container-sm">
+          <div class="team-content">
+            <h2
+              class="montserrat text-capitalize sec-title text-dark position-relative d-inline-block"
+            >
+              our Team.
+            </h2>
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4">
+                <div class="card item border-0 pb-3">
+                  <div
+                    class="card-img rounded-0 position-relative overflow-hidden"
+                  >
+                    <img
+                      src="./images/1.jpg"
+                      class="w-100 transform-transition"
+                      alt="John Doe Photo"
+                    />
+                    <div
+                      class="card-layer bg-white d-flex position-absolute justify-content-center align-items-center"
+                    >
+                      <div
+                        class="card-social-icons d-flex justify-content-center align-items-center column-gap-3 text-white"
+                      >
+                        <div
+                          class="icon border border-1 bg-dark border-dark rounded-circle colored-transition"
+                        >
+                          <i class="fa-brands fa-facebook-f fs-4"></i>
+                        </div>
+                        <div
+                          class="icon border border-1 bg-dark border-dark rounded-circle colored-transition"
+                        >
+                          <i class="fa-brands fa-twitter fs-4"></i>
+                        </div>
+                        <div
+                          class="icon border border-1 bg-dark border-dark rounded-circle colored-transition"
+                        >
+                          <i class="fa-brands fa-pinterest fs-4"></i>
+                        </div>
+                        <div
+                          class="icon border border-1 bg-dark border-dark rounded-circle colored-transition"
+                        >
+                          <i class="fa-brands fa-linkedin-in fs-4"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h3
+                      class="card-title text-capitalize montserrat text-white mb-3 fs-4 fw-medium"
+                    >
+                      John Doe
+                    </h3>
+                    <h4
+                      class="card-subtitle montserrat text-uppercase fs-5 text-white"
+                    >
+                      FRONT-END DEVELOPER
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card item border-0 pb-3">
+                  <div
+                    class="card-img rounded-0 position-relative overflow-hidden"
+                  >
+                    <img
+                      src="./images/22.jpg"
+                      class="w-100 transform-transition"
+                      alt="Dave Wood
+                      Photo"
+                    />
+                    <div
+                      class="card-layer bg-white d-flex position-absolute justify-content-center align-items-center"
+                    >
+                      <div
+                        class="card-social-icons d-flex justify-content-center align-items-center column-gap-3 text-white"
+                      >
+                        <div
+                          class="icon border border-1 bg-dark border-dark rounded-circle colored-transition"
+                        >
+                          <i class="fa-brands fa-facebook-f fs-4"></i>
+                        </div>
+                        <div
+                          class="icon border border-1 bg-dark border-dark rounded-circle colored-transition"
+                        >
+                          <i class="fa-brands fa-twitter fs-4"></i>
+                        </div>
+                        <div
+                          class="icon border border-1 bg-dark border-dark rounded-circle colored-transition"
+                        >
+                          <i class="fa-brands fa-pinterest fs-4"></i>
+                        </div>
+                        <div
+                          class="icon border border-1 bg-dark border-dark rounded-circle colored-transition"
+                        >
+                          <i class="fa-brands fa-linkedin-in fs-4"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h3
+                      class="card-title text-capitalize montserrat text-white mb-3 fs-4 fw-medium"
+                    >
+                      Dave Wood
+                    </h3>
+                    <h4
+                      class="card-subtitle montserrat text-uppercase fs-5 text-white"
+                    >
+                      BACK-END DEVELOPER
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card item border-0 pb-3">
+                  <div
+                    class="card-img rounded-0 position-relative overflow-hidden"
+                  >
+                    <img
+                      src="./images/1.jpg"
+                      class="w-100 transform-transition"
+                      alt="Claire Chedd
+ Photo"
+                    />
+                    <div
+                      class="card-layer bg-white d-flex position-absolute justify-content-center align-items-center"
+                    >
+                      <div
+                        class="card-social-icons d-flex justify-content-center align-items-center column-gap-3 text-white"
+                      >
+                        <div
+                          class="icon border border-1 bg-dark border-dark rounded-circle colored-transition"
+                        >
+                          <i class="fa-brands fa-facebook-f fs-4"></i>
+                        </div>
+                        <div
+                          class="icon border border-1 bg-dark border-dark rounded-circle colored-transition"
+                        >
+                          <i class="fa-brands fa-twitter fs-4"></i>
+                        </div>
+                        <div
+                          class="icon border border-1 bg-dark border-dark rounded-circle colored-transition"
+                        >
+                          <i class="fa-brands fa-pinterest fs-4"></i>
+                        </div>
+                        <div
+                          class="icon border border-1 bg-dark border-dark rounded-circle colored-transition"
+                        >
+                          <i class="fa-brands fa-linkedin-in fs-4"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h3
+                      class="card-title text-capitalize montserrat text-white mb-3 fs-4 fw-medium"
+                    >
+                      Claire Chedd
+                    </h3>
+                    <h4
+                      class="card-subtitle montserrat text-uppercase fs-5 text-white"
+                    >
+                      BACK-END DEVELOPER
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of team section -->
+
+      <!-- start of contact section -->
+      <section id="contact" class="sec-padding text-center">
+        <div class="container-sm">
+          <div class="contact-content">
+            <h2
+              class="montserrat text-capitalize sec-title text-dark position-relative d-inline-block"
+            >
+              contact us.
+            </h2>
+            <div class="row gx-1 gy-5 justify-content-center mb-5">
+              <div class="col-lg-3">
+                <div class="contact-item">
+                  <div
+                    class="contact-icons d-flex justify-content-center align-items-center"
+                  >
+                    <i
+                      class="fa-solid fa-location-arrow fs-4 text-dark mb-3 p-4 item-bg rounded-circle colored-transition"
+                    ></i>
+                  </div>
+                  <h3
+                    class="text-capitalize montserrat fw-bolder fs-5 text-dark mb-3"
+                  >
+                    Address
+                  </h3>
+                  <p class="text-capitalize text-grey poppins">
+                    6834 Hollywood Blvd - Los Angeles CA
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="contact-item">
+                  <div
+                    class="contact-icons d-flex justify-content-center align-items-center"
+                  >
+                    <i
+                      class="fa-solid fa-envelope fs-4 text-dark mb-3 p-4 item-bg rounded-circle colored-transition"
+                    ></i>
+                  </div>
+                  <h3
+                    class="text-capitalize montserrat fw-bolder fs-5 text-dark mb-3"
+                  >
+                    Email
+                  </h3>
+                  <p class="text-capitalize text-grey poppins">
+                    Support@website.com
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="contact-item">
+                  <div
+                    class="contact-icons d-flex justify-content-center align-items-center"
+                  >
+                    <i
+                      class="fa-solid fa-phone fs-4 text-dark mb-3 p-4 item-bg rounded-circle colored-transition"
+                    ></i>
+                  </div>
+                  <h3
+                    class="text-capitalize montserrat fw-bolder fs-5 text-dark"
+                  >
+                    Phone
+                  </h3>
+                  <p class="text-capitalize text-grey poppins">
+                    +20 010 2517 8918
+                  </p>
+                </div>
+              </div>
+            </div>
+            <form method="post" class="mx-auto">
+              <div class="row justify-content-center">
+                <div class="col-lg-6">
+                  <div class="mb-3 input-items">
+                    <input
+                      type="email"
+                      class="form-control item-bg rounded-1 border-0 py-2 poppins fs-6"
+                      placeholder="Name"
+                      name="full_name"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mb-3 input-items">
+                    <input
+                      type="email"
+                      class="form-control item-bg rounded-1 border-0 py-2 poppins fs-6"
+                      placeholder="Email"
+                      name="email"
+                    />
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="mb-4 input-items">
+                    <textarea
+                      class="form-control item-bg w-100 rounded-1 border-0 poppins fs-6 py-2"
+                      rows="7"
+                      placeholder="Message"
+                      name="msg"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="input-items text-start">
+                <button
+                  type="submit"
+                  class="bg-dark text-white border border-1 border-dark rounded-2 text-capitalize poppins fs-6 colored-transition"
+                >
+                  submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- end of contact section -->
+    </main>
+    <!-- end of main -->
+
+    <!-- start of footer -->
+    <footer class="text-center py-4">
+      <div class="container-sm">
+        <div
+          class="footer-content d-flex align-items-center justify-content-center"
+        >
+          <p class="text-secondary fs-6 p-0 m-0">
+            Copy Right 2018 &copy; By Daniels All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <!-- bootstrap js file -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
